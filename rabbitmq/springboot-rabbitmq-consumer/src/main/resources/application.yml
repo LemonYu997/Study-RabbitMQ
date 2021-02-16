@@ -1,0 +1,8 @@
+# 配置RabbitMQ的基本信息 ip 端口 username password..
+spring:
+  rabbitmq:
+    host: 192.168.14.3
+    port: 5672
+    username: admin
+    password: 111111
+    virtual-host: /

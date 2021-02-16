@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0fd1cd25-eb20-47e0-a51b-344ae2e634df" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\maven_jar" />
+        <option name="mavenHome" value="E:/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1oWPKwzLGl7eMLkHBoox1GfGW1m" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-rabbitmq-consumer/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15546875" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="consumer" />
+      <recent name="producer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\Project\rabbitmq\spring-rabbitmq-consumer\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="ConsumerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rabbitmq-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="producer" />
+      <option name="MAIN_CLASS_NAME" value="producer.ConsumerTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="producer" />
+      <option name="MAIN_CLASS_NAME" value="producer.ProducerTest" />
+      <option name="METHOD_NAME" value="testSend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rabbitmq-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="producer" />
+      <option name="MAIN_CLASS_NAME" value="producer.ProducerTest" />
+      <option name="METHOD_NAME" value="testTopic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="producer.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="consumer.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-rabbitmq-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootrabbitmqconsumer.SpringbootRabbitmqConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.ProducerTest.testSend" />
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="JUnit.ConsumerTest.test1" />
+        <item itemvalue="JUnit.ProducerTest.testTopic" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fd1cd25-eb20-47e0-a51b-344ae2e634df" name="Default Changelist" comment="" />
+      <created>1613399312705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613399312705</updated>
+      <workItem from="1613399313949" duration="4711000" />
+      <workItem from="1613465676222" duration="270000" />
+      <workItem from="1613468007732" duration="14864000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1377" y="270" key="#Project_Structure" timestamp="1613480310211">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1377" y="270" key="#Project_Structure/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613480310211" />
+    <state x="1383" y="341" key="#com.intellij.ide.util.MemberChooser" timestamp="1613478139448">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1383" y="341" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613478139448" />
+    <state x="574" y="526" key="FileChooserDialogImpl" timestamp="1613399524297">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="574" y="526" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613399524297" />
+    <state width="1541" height="302" key="GridCell.Tab.0.bottom" timestamp="1613482978487">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1541" height="302" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613482978487" />
+    <state width="1541" height="302" key="GridCell.Tab.0.center" timestamp="1613482978487">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1541" height="302" key="GridCell.Tab.0.center/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613482978487" />
+    <state width="1541" height="302" key="GridCell.Tab.0.left" timestamp="1613482978487">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1541" height="302" key="GridCell.Tab.0.left/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613482978487" />
+    <state width="1541" height="302" key="GridCell.Tab.0.right" timestamp="1613482978487">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1541" height="302" key="GridCell.Tab.0.right/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613482978487" />
+    <state width="1541" height="302" key="GridCell.Tab.1.bottom" timestamp="1613482953645">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1541" height="302" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613482953645" />
+    <state width="1541" height="302" key="GridCell.Tab.1.center" timestamp="1613482953645">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1541" height="302" key="GridCell.Tab.1.center/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613482953645" />
+    <state width="1541" height="302" key="GridCell.Tab.1.left" timestamp="1613482953645">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1541" height="302" key="GridCell.Tab.1.left/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613482953645" />
+    <state width="1541" height="302" key="GridCell.Tab.1.right" timestamp="1613482953645">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1541" height="302" key="GridCell.Tab.1.right/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613482953645" />
+    <state x="421" y="275" key="SettingsEditor" timestamp="1613399526249">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="421" y="275" key="SettingsEditor/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613399526249" />
+    <state x="1239" y="482" key="com.intellij.ide.util.TipDialog" timestamp="1613468011210">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1239" y="482" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613468011210" />
+    <state x="119" y="264" key="new project wizard" timestamp="1613482273560">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="119" y="264" key="new project wizard/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613482273560" />
+    <state x="1254" y="315" key="run.anything.popup" timestamp="1613480147216">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1254" y="315" key="run.anything.popup/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613480147216" />
+    <state x="1201" y="342" width="840" height="1034" key="search.everywhere.popup" timestamp="1613481052163">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1201" y="342" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1613481052163" />
+  </component>
+</project>
