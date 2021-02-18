@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/rabbit
+       http://www.springframework.org/schema/rabbit/spring-rabbit.xsd
+        ">
+
+    <!--导入properties-->
+    <context:property-placeholder location="classpath:rabbitmq.properties" />
+
+    <rabbit:connection-factory id="connectionFactory"
+                               host="${rabbitmq.host}"
+                               port="${rabbitmq.port}"
+                               username="${rabbitmq.username}"
+                               password="${rabbitmq.password}"
+                               virtual-host="${rabbit.virtual-host}" />
+
+    <!--定义监听器bean，使用包扫描-->
+    <context:component-scan base-package="listener" />
+
+    <!--定义监听器容器-->
+    <!--设置手动签收 acknowledge="manual"
+        设置消费端限流 prefetch="1"-->
+    <rabbit:listener-container connection-factory="connectionFactory" acknowledge="manual" prefetch="1">
+<!--        <rabbit:listener ref="ackListener" queue-names="test_queue_confirm" />-->
+<!--        <rabbit:listener ref="qosListener" queue-names="test_queue_confirm" />-->
+        <!--定义监听器，监听正常队列
+        测试消息拒收产生的死信，注意：这里接收队列要为正常队列-->
+<!--        <rabbit:listener ref="dlxListener" queue-names="test_queue_dlx" />-->
+
+        <!--延迟队列监听器，一定要监听的是死信队列！！！-->
+        <rabbit:listener ref="orderListener" queue-names="order_queue_dlx" />
+    </rabbit:listener-container>
+</beans>
